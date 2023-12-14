@@ -1,0 +1,28 @@
+.footer{
+    position: fixed;
+    width: calc(100% - 250px);
+    height: 50px;
+    bottom: 0;
+    left:0;
+    vertical-align: middle;
+    line-height: 50px;
+    padding: 0 20px;
+    background-color: #fff;
+    box-shadow: 7px 7px 25px rgba(0,0,0,0.08);
+}
+.footer-text{
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #a9a9aa;
+}
+.footer-text .footer-link{
+    color:#ff6600;
+    text-decoration: none;
+}
+
+
+@media screen and (max-width: 900px){
+    .footer{
+        width: 100%;
+    }
+}

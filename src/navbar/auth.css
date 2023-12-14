@@ -1,0 +1,94 @@
+.auth{
+    background: linear-gradient(135deg, #9b59b6, #71b7e6) !important;;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: calc(100% - 210px);
+    z-index: 111111111111111111111111111111111111111111111111111111111111111111111111;
+}
+.ion-icon {
+    font-size: 25px;
+    color: #fff;
+}
+.link-notify{
+    position: relative;
+}
+ion-icon:hover{
+    color:#000;
+    transition: all .7s ease;
+}
+.notify-count{
+    background:red;
+    width:18px;
+    height: 18px;
+    border-radius: 50%;
+    position: absolute;
+    top: 6px;
+    left: -6px;
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: bold;
+    z-index: 11111111111111;
+    /* padding: 2px; */
+    /* border: 1px solid #fff; */
+
+}
+/* @media screen and (max-width: 600px) {
+    .auth{
+        width: 100%;
+    }
+} */
+ 
+
+.profile-img{
+    cursor: pointer;
+}
+
+.profile-form{
+    display: none;
+    width: 350px;
+    position: absolute;
+    left: 10px;
+    top: 110%;
+    transition: all 2s ease !important;
+}
+.profile-form::before{
+    content: '';
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background: #ffc107;
+    transform: rotate(45deg);
+    top: -9px;
+    left: 45px;
+
+}
+.profile-form-header, .profile-form-body, .logout-btn{
+    padding: 20px;
+}
+.profile-form-body .link{
+    text-decoration: none;
+    color: #6c757d !important;
+    transition: all .2s ease;
+}
+.profile-form-body .link:hover{
+    color:#ffc107 !important;
+}
+.logout-btn{
+    border-radius: 0 0 5px 5px;
+}
+.logout-btn .btn:hover{
+    background: transparent;
+    color: #000;
+    transition: all .7s ease;
+}
+
+
+@media screen and (max-width: 768px) {
+    .auth{
+        width: 100%;
+        margin: 0 !important;
+    }
+}

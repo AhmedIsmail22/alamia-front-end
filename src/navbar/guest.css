@@ -1,0 +1,8 @@
+.guest{
+    background: linear-gradient(135deg, #9b59b6, #71b7e6) !important;;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 111111111111111111111111111111111111111111111111111111111111111111111111;
+}

@@ -1,0 +1,186 @@
+.employee-details .employee-card table.card2 tr td{
+  background-color: rgba(253, 118, 118, 0.9);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.employee-details .employee-card table.card3 tr td{
+  background-color: rgba(118, 253, 136, 0.9);
+}
+.card2{
+  background-color: rgba(253, 118, 118, 0.5);
+}
+.card3{
+  background-color: rgba(118, 253, 136, 0.5);
+}
+.card-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin-bottom:100px;
+    text-align: center;
+  }
+  
+  .active{
+    background-color: #0A53C2 !important;
+    border-color: #0A53C2 !important;
+  }
+  .employees-card, .other {
+    position: relative;
+    background-color: #fff;
+    max-height: 200px;
+    /* padding: 20px; */
+  }
+  
+  .employees-card img {
+    width: 100%;
+    height: 50%;
+  }
+  
+  .employees-card h5 {
+    margin: 20px auto;
+    font-weight: bold;
+  }
+  
+  .employees-card p {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    margin-top: 5px;
+    color: #000;
+    font-weight: bold;
+  }
+  
+  .employees-card a {
+    display: block;
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 3px 0;
+    border:1px solid #0d6efd;
+    transition: all 0.5 ease !important;
+  }
+  .employees-card a:hover{
+    background-color: #fff !important;
+    color: #0d6efd !important;
+    /* border:1px solid inherit; */
+  
+  }
+  
+  .card-list .other{
+    position: relative;
+    color: #fff;
+  }
+  
+  .card-list .other .add-card{
+      position: absolute;
+      left:50%;
+      top:50%;
+      transform: translate(-50%,-50%);
+      color:#000;
+      font-weight: bold;
+      margin: 0 !important;
+  }
+  
+  .card-list .other .add-card ion-icon{
+    /* font-size: 30px; */
+    font-weight: bold;
+  }
+
+  .model{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8); /* Set the opacity using RGBA */
+    width: 100%;
+    height: 100%;
+    z-index: 11111111111111111111111111111111111111111111111111111111111111;
+  }
+
+  .model .award-deduction-advance-model{
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    background-color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
+    padding: 40px 25px 15px;
+    width: 33%;
+    height: 530px;
+    color: #000;
+    font-weight: bold;
+    margin: 0 !important;
+    overflow-x: auto;
+    opacity: 1 !important;
+    overflow-y: auto;
+    z-index: 111111111111111111111111111111111111111111111111111111111111111;
+  }
+
+  .close{
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    background-color: transparent;
+    padding: 3px;
+    color: #797878;
+    border: 1px solid #b8b8b8;
+    border-radius: 2px;
+    font-size: 20px;
+    line-height:0;
+    cursor: pointer;
+  }
+  
+  .close:hover{
+    background-color: #000;
+    color: #fff !important;
+  }
+  .close ion-icon:hover{
+   color: #fff !important;
+ }
+
+ .errors{
+  width: 85%;
+  padding: 5px 0px;
+  border: 1px solid red;
+  border-radius: 5px;
+  margin-bottom: 10px;
+ }
+ .errors h5 {
+  color: red;
+  line-height: 25px;
+ }
+  
+  
+  @media screen and (max-width: 600px) {
+    .model .award-deduction-advance-model{
+      width: 90%;
+      left:50%;
+    }
+
+    .employee-details .employee-card{
+      gap:20px;
+    }
+  }
+
+  .loading-page{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1111111111111111111111111111111111111111;
+  }
+  .loading-page .loading-icon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }

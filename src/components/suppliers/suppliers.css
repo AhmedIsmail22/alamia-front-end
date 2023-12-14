@@ -1,0 +1,53 @@
+.table{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.container{
+    padding: 50px auto 100px;
+}
+.details-section{
+    width: 100%;
+    min-height: 180px;
+    /* padding-top: 15px; */
+    border-radius: 5px;
+    box-shadow: 15px 9px 20px rgba(0,0,0,0.2);
+    margin-top: 10px;
+    background-color: #fff;
+    overflow: hidden;
+}
+.details-section .section-header{
+    padding: 6px 10px;
+}
+.details-section .section-body{
+    padding: 10px;
+}
+.details-item {
+    align-items: center;
+}
+.details-item p{
+    font-size: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-right: 15px;
+}
+.details-item a ion-icon{
+    font-size: 40px;
+    transition: transform .5s ease;
+}
+.details-item a ion-icon:hover{
+    filter:grayscale(100%);
+    transform: rotate(360deg);
+}
+.social{
+    /* background-color: red; */
+}
+.details-item a{
+    display: block;
+    margin: 0 10px;
+}
+.supplier-money tbody tr td{
+    border-top-style: none !important;
+    border-left-style: none !important;
+    border-right-style: none !important;
+    border-bottom-style: none !important;
+}
